@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <!-- font-family: 'Cinzel', serif; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap" rel="stylesheet">
+    <!-- font-family: 'Courgette', cursive; -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500&family=Courgette&display=swap" rel="stylesheet">
+    <!-- CSS file -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Javascript file -->
+    <script src="app.js"></script>
+    <title>Memory Game</title>
+</head>
+<body>
+    <!-- Header -->
+    <header class="container-fluid d-flex justify-content-center align-items-center" id="nav1">
+        <h2 class="text-center pt-2">Memory Game</h2>
+    </header>
+    <!-- Body -->
+    <!-- Grid -->
+    <div class="container py-3 py-lg-5 ">
+        <div class="container" id="grid">
+
+        </div>
+    </div>
+
+    <!-- Start button
+    <div class="text-center">
+        <button type="button" class="btn" id="btn1" onclick="myFunction()">START</button>
+    </div> <br> -->
+
+    <!-- Result -->
+    <div class="container text-center">
+        <span id="points">Score: 0</span> <br> 
+        <h5 id=moves></h5> <h5 id="timer">0mins 0secs</h5>
+        <h3 id="result"></h3>
+    </div>
+    <!-- Footer -->
+    <div class="footer sticky-bottom text-center align-items-center mb-0 container-fluid" id="footer1">
+        <div class="text-center">
+      <span>&#169; </span>      
+        <script>
+            document.write(new Date().getFullYear());
+        </script>
+        <span> Anushka Garg</span> 
+        </div>
+  </div>
+</body>
+</html>

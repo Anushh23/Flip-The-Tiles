@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+}
+#nav1{
+    background-color:rgb(240, 194, 108);
+    min-height: 7vh;
+    font-family: 'Cinzel', serif;
+    font-weight: bolder;
+}
+body{
+    background-color:rgb(240, 219, 178);
+}
+#grid{
+    width: 402px;
+    height: 402px;
+    border: 1px solid black;
+    padding: 0;
+    /* border-radius: 6%; */
+}
+#btn1{
+    border: 1px solid black;
+    border-radius: 7%;
+    font-size: bold;
+    font-family: 'Courgette', cursive;
+}
+#btn1:hover{
+    background-color: rgb(243, 192, 98);
+}
+#footer1{
+    padding: 1.5vh;
+    position: absolute;
+    bottom: 0;
+    background-color:rgb(240, 194, 108);
+    font-family: 'Cinzel', serif;
+    font-weight: bold;
+}
+#points{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Courgette', cursive;
+}
+#moves, #timer{
+    font-weight: bolder;
+    /* font-size: 20px; */
+    font-family: 'Courgette', cursive;
+}
