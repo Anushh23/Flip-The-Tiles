@@ -12,6 +12,10 @@ DESCRIPTION
 
 * The ultimate goal of the game is to get all the tiles flipped face up i.e. to find all the matching pairs. This has to be done in the least number of moves and in lesser time as well.
 
+LINK
+--------
+Website deployed on: https://anushh23.github.io/Flip-The-Tiles/
+
 SNAPSHOTS
 ---------------
 
